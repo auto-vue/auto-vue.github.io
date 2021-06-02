@@ -7,10 +7,12 @@ import { BootstrapVue, BootstrapVueIcons } from "bootstrap-vue";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
-import * as mdbvue from "mdbvue";
-for (const component in mdbvue) {
-  Vue.component(component, mdbvue[component]);
-}
+
+import VueAwesomeSwiper from "vue-awesome-swiper";
+
+import "swiper/css/swiper.css";
+
+Vue.use(VueAwesomeSwiper);
 
 Vue.use(BootstrapVue);
 Vue.use(BootstrapVueIcons);

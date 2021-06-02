@@ -389,4 +389,44 @@ hr.headline {
   color: #686d79;
   text-shadow: 3px 3px 3px #d8d8d8e3;
 }
+
+.swiper {
+  width: 100%;
+}
+
+.tcard {
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px !important;
+  color: #686d79;
+  text-shadow: 3px 3px 3px #d8d8d8e3;
+}
+
+.cardprice {
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px !important;
+  color: #ff4a4a;
+  text-shadow: 3px 3px 3px #d8d8d8e3;
+}
+
+.butcard {
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 23px !important;
+  color: #fff;
+  text-shadow: none;
+}
+
+.card-link {
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px !important;
+  color: #686d79;
+  text-shadow: 3px 3px 3px #d8d8d8e3;
+}
 </style>

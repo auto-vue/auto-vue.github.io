@@ -17,7 +17,9 @@
     "mdb-ui-kit": "^3.5.1",
     "mdb-vue-ui-kit": "^1.0.0-beta3",
     "mdbvue": "^6.7.2",
+    "swiper": "^5.4.5",
     "vue": "^2.6.11",
+    "vue-awesome-swiper": "^4.1.1",
     "vue-axios": "^3.2.4",
     "vuetify": "^2.4.0"
   },
