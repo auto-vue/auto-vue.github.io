@@ -2,15 +2,18 @@
   <b-container>
     <b-row>
       <b-col class="services-block">
+        <!-- Заголовок -->
         <b-row>
           <b-col id="services-zg" xl="12" align="left">
             Вы можете нам доверить
           </b-col>
         </b-row>
+        <!-- Карусель -->
         <swiper class="swiper" :options="swiperOption">
+          <!-- 1 слайд -->
           <swiper-slide>
             <b-card
-              title="Подбор и замена масла"
+              title="Подбор и замена    ‌‌‍‍ масла"
               img-src="../../img/1sev.png"
               img-alt="Image"
               img-top
@@ -31,6 +34,7 @@
               <a href="#" class="card-link">Подробнее</a>
             </b-card>
           </swiper-slide>
+          <!-- 2 слайд -->
           <swiper-slide>
             <b-card
               title="Консультация по замене
@@ -50,10 +54,10 @@
               <b-button class="butcard" href="#" variant="primary"
                 >Добавить</b-button
               >
-
               <a href="#" class="card-link">Подробнее</a>
             </b-card>
           </swiper-slide>
+          <!-- 3 слайд -->
           <swiper-slide>
             <b-card
               title="Осмотр автомобиля
@@ -73,15 +77,15 @@
               <b-button class="butcard" href="#" variant="primary"
                 >Добавить</b-button
               >
-
               <a href="#" class="card-link">Подробнее</a>
             </b-card>
           </swiper-slide>
           <!-- <swiper-slide>Slide 4</swiper-slide>
           <swiper-slide>Slide 5</swiper-slide>
           <swiper-slide>Slide 6</swiper-slide> -->
-          <div class="swiper-button-prev" slot="button-prev"></div>
-          <div class="swiper-button-next" slot="button-next"></div>
+          <!-- Кнопки переключения слайдов -->
+          <div class="butprev" slot="button-prev"></div>
+          <div class="butnext" slot="button-next"></div>
         </swiper>
       </b-col>
     </b-row>
@@ -109,8 +113,8 @@ export default {
         loop: true,
         loopFillGroupWithBlank: true,
         navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+          nextEl: ".butnext",
+          prevEl: ".butprev",
         },
       },
     };

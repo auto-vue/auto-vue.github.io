@@ -392,13 +392,19 @@ hr.headline {
 
 .swiper {
   width: 100%;
+  margin-top: 74px;
 }
 
-.tcard {
+.card {
+  height: 580px !important;
+  border-radius: 0 !important;
+  border-color: transparent !important;
+}
+.card-title {
   font-family: "TT Commons";
   font-style: normal;
   font-weight: 600;
-  font-size: 30px !important;
+  font-size: 25px !important;
   color: #686d79;
   text-shadow: 3px 3px 3px #d8d8d8e3;
 }
@@ -413,12 +419,18 @@ hr.headline {
 }
 
 .butcard {
+  width: 160px;
+  height: 50px;
   font-family: "TT Commons";
   font-style: normal;
   font-weight: 600;
   font-size: 23px !important;
   color: #fff;
   text-shadow: none;
+  background-color: #ffa45a !important;
+  border-radius: 0 !important;
+  border-color: #ffa45a !important;
+  line-height: 1.7 !important;
 }
 
 .card-link {
@@ -428,5 +440,28 @@ hr.headline {
   font-size: 20px !important;
   color: #686d79;
   text-shadow: 3px 3px 3px #d8d8d8e3;
+  margin-left: 20px;
+}
+
+.butnext {
+  width: 40px;
+  height: 40px;
+  background: url(../../img/next-button.svg) 50% 50% no-repeat;
+  cursor: pointer;
+  position: absolute;
+  right: 0px;
+  top: 30%;
+  z-index: 20;
+}
+
+.butprev {
+  width: 40px;
+  height: 40px;
+  background: url(../../img/prev-button.svg) 50% 50% no-repeat;
+  cursor: pointer;
+  position: absolute;
+  left: 0px;
+  top: 30%;
+  z-index: 20;
 }
 </style>
