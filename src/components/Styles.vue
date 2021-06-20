@@ -464,4 +464,149 @@ hr.headline {
   top: 30%;
   z-index: 20;
 }
+
+/* News */
+
+.news-block {
+  height: 1054px;
+  background-color: white;
+}
+
+#news-zg {
+  font-family: "TT Commons";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: #686d79;
+}
+
+#interest {
+  font-family: "TT Commons";
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color: #d8d8d8;
+}
+
+#rec-news {
+  text-align: center;
+  width: 165px;
+  height: 50px;
+  background: #712be1;
+  cursor: pointer;
+  line-height: 2.5em;
+  font-size: 20px;
+  font-family: "TT Commons";
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+
+.news-cards {
+  margin-top: 74px;
+}
+
+.card-columns {
+  column-count: 2 !important;
+  column-gap: 3rem !important;
+}
+
+.img1 {
+  width: 610px !important;
+}
+
+.img23 {
+  width: 210px !important;
+}
+
+.cd1 {
+  margin-left: 70px;
+}
+
+.cd2 {
+  margin-left: 70px;
+}
+
+.dtcdl {
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "TT Commons";
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  text-shadow: none;
+  cursor: pointer;
+}
+
+.zgcdl {
+  margin-left: 30px;
+  margin-top: 220px;
+  font-size: 30px;
+  font-family: "TT Commons";
+  font-weight: 600;
+  font-style: normal;
+  color: #fff;
+  text-shadow: none;
+  width: 70%;
+  line-height: 1.3 !important;
+  cursor: pointer;
+}
+
+.txtcdl {
+  margin-left: 30px;
+  font-size: 20px;
+  font-family: "TT Commons";
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  text-shadow: none;
+  width: 40%;
+  line-height: 1.15 !important;
+  cursor: pointer;
+}
+
+.dtcd {
+  margin-left: -50px;
+  margin-top: -15px;
+  font-size: 20px;
+  font-family: "TT Commons";
+  font-weight: 400;
+  font-style: normal;
+  color: #d8d8d8;
+  text-shadow: none;
+  cursor: pointer;
+}
+
+.zgcd {
+  margin-left: -50px;
+  font-size: 20px;
+  font-family: "TT Commons";
+  font-weight: 600;
+  font-style: normal;
+  color: #686d79;
+  text-shadow: none;
+  width: 90%;
+  line-height: 1.15 !important;
+  cursor: pointer;
+}
+
+.txtcd {
+  margin-left: -50px;
+  font-size: 20px;
+  font-family: "TT Commons";
+  font-weight: 400;
+  font-style: normal;
+  color: #686d79;
+  text-shadow: none;
+  line-height: 1.15 !important;
+  cursor: pointer;
+}
+
+/* Footer */
+
+.footer-block {
+  height: 780px;
+  background-color: #f3f3f3;
+}
 </style>
