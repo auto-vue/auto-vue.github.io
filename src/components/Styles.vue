@@ -337,6 +337,7 @@ hr.headline {
   font-style: normal;
   font-size: 30px;
   color: white;
+  text-decoration: none;
 }
 
 #recp {
@@ -608,5 +609,42 @@ hr.headline {
 .footer-block {
   height: 780px;
   background-color: #f3f3f3;
+}
+
+hr.footline {
+  background-color: #d8d8d8 !important;
+  width: 1720px;
+  height: 1px;
+  margin-top: 93px;
+  margin-left: 80px;
+  position: absolute;
+}
+
+.f-links {
+  margin-top: 120px;
+  color: #686d79 !important;
+  height: 80px !important;
+}
+
+.f-main {
+  margin-left: -280px;
+  font-size: 30px;
+  font-family: "TT Commons";
+  font-weight: 600;
+  font-style: normal;
+  color: #686d79 !important;
+}
+
+.f-news,
+.f-sales,
+.f-catalog,
+.f-payment,
+.f-delivery,
+.f-contacts {
+  font-size: 30px;
+  font-family: "TT Commons";
+  font-weight: 600;
+  font-style: normal;
+  color: #686d79 !important;
 }
 </style>
