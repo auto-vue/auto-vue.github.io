@@ -620,14 +620,18 @@ hr.footline {
   position: absolute;
 }
 
-.f-links {
+.f-menu {
   margin-top: 120px;
   color: #686d79 !important;
-  height: 80px !important;
 }
 
-.f-main {
-  margin-left: -280px;
+.f-main,
+.f-news,
+.f-sales,
+.f-catalog,
+.f-payment,
+.f-delivery,
+.f-contacts {
   font-size: 30px;
   font-family: "TT Commons";
   font-weight: 600;
@@ -635,12 +639,52 @@ hr.footline {
   color: #686d79 !important;
 }
 
-.f-news,
-.f-sales,
-.f-catalog,
-.f-payment,
-.f-delivery,
-.f-contacts {
+.f-links {
+  margin-top: 70px;
+  color: #686d79 !important;
+}
+
+.f-lk,
+.f-cart,
+.f-about,
+.f-feedback,
+.f-policy {
+  margin-left: -100px;
+  font-size: 20px;
+  font-family: "TT Commons";
+  font-weight: 600;
+  font-style: normal;
+  color: #686d79 !important;
+}
+
+.f-about {
+  margin-left: -140px;
+}
+
+.f-content {
+  margin-top: 130px;
+}
+
+.address1 {
+  font-size: 20px;
+  font-family: "TT Commons";
+  font-weight: 400;
+  font-style: normal;
+  color: #686d79 !important;
+}
+
+.address2,
+.address3 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "TT Commons";
+  font-weight: 400;
+  font-style: normal;
+  color: #686d79 !important;
+}
+
+.f-tel,
+.f-mail {
   font-size: 30px;
   font-family: "TT Commons";
   font-weight: 600;
